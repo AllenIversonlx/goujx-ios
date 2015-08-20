@@ -107,7 +107,6 @@
      */
     self.automaticallyAdjustsScrollViewInsets = NO;
     
-    
     WS(weakSelf);
     //头部按钮
     HeaderView *headView = [[HeaderView alloc] initWithFrame:CGRectMake(0, 0, 150, 44) WithArray:SegmentArray];
@@ -165,7 +164,7 @@
     self.blurView.clickTableCellBlock = ^(NSInteger clicktag){
         [weakSelf hideTheView];
         if (clicktag == 2) {
-            AnotherMoreViewController *another=[[AnotherMoreViewController alloc]init];
+            AnotherMoreViewController *another= [[AnotherMoreViewController alloc]init];
             [weakSelf.navigationController pushViewController:another animated:YES];
         } else if (clicktag == 1) {
             BuyCarViewController *buyCar = [[BuyCarViewController alloc] init];

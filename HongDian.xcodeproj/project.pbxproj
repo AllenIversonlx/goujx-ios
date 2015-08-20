@@ -92,7 +92,6 @@
 		259097121B5E90660090F94A /* PayGoodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259097111B5E90660090F94A /* PayGoodsViewController.m */; };
 		259097191B5E96790090F94A /* FeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259097181B5E96790090F94A /* FeedbackViewController.m */; };
 		259357F01B663F0E005809B4 /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 259357EF1B663F0E005809B4 /* WeiboSDK.bundle */; };
-		259357F21B664251005809B4 /* image_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 259357F11B664251005809B4 /* image_2.jpg */; };
 		25A0C4C11B7054D0000462A7 /* OrderDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A0C4C01B7054D0000462A7 /* OrderDetailViewController.m */; };
 		25A0C4C71B70828B000462A7 /* MallProductSkuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A0C4C61B70828B000462A7 /* MallProductSkuModel.m */; };
 		25A0C4CA1B7082DA000462A7 /* MallProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A0C4C91B7082DA000462A7 /* MallProductModel.m */; };
@@ -340,7 +339,6 @@
 		259097171B5E96790090F94A /* FeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackViewController.h; sourceTree = "<group>"; };
 		259097181B5E96790090F94A /* FeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackViewController.m; sourceTree = "<group>"; };
 		259357EF1B663F0E005809B4 /* WeiboSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = ../Pods/WeiboSDK/libWeiboSDK/WeiboSDK.bundle; sourceTree = "<group>"; };
-		259357F11B664251005809B4 /* image_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_2.jpg; sourceTree = "<group>"; };
 		25A0C4BF1B7054D0000462A7 /* OrderDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderDetailViewController.h; sourceTree = "<group>"; };
 		25A0C4C01B7054D0000462A7 /* OrderDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderDetailViewController.m; sourceTree = "<group>"; };
 		25A0C4C51B70828B000462A7 /* MallProductSkuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallProductSkuModel.h; sourceTree = "<group>"; };
@@ -969,7 +967,6 @@
 				25B3F7641B7377C30026B05D /* BaseViewController+JxViewAnimation.m */,
 				25E977841B5CDCC100AF76B6 /* SingleGoodsViewController.h */,
 				25E977851B5CDCC100AF76B6 /* SingleGoodsViewController.m */,
-				259357F11B664251005809B4 /* image_2.jpg */,
 			);
 			name = "单个商品界面";
 			sourceTree = "<group>";
@@ -1578,7 +1575,6 @@
 				25E228481B4E26C8008061D1 /* Images.xcassets in Resources */,
 				256F84131B81B8B4006D58BF /* Address.plist in Resources */,
 				2577C88D1B661C2500679033 /* read_me.txt in Resources */,
-				259357F21B664251005809B4 /* image_2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
