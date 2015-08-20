@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+#import "RESideMenu.h"
+#import "WXApi.h"
+#import <WeiboSDK/WeiboSDK.h>
+@interface AppDelegate : UIResponder <UIApplicationDelegate,RESideMenuDelegate,WXApiDelegate,WeiboSDKDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
